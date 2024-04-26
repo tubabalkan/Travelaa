@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Travelaa.DataAccessLayer\Travelaa.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Travelaa.BusinessLayer\Travelaa.BusinessLayer.csproj" />
   </ItemGroup>
 
 </Project>
