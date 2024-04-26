@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travelaa.WebApi", "Travelaa.WebApi\Travelaa.WebApi.csproj", "{0F72A099-BB72-4B2F-9BE1-F4BF628A3575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travelaa.EntityLayer", "Travelaa.EntityLayer\Travelaa.EntityLayer.csproj", "{B31CB25F-ECC7-40EF-9274-F3D395DF60F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travelaa.DataAccessLayer", "Travelaa.DataAccessLayer\Travelaa.DataAccessLayer.csproj", "{3677ECC3-1894-4A76-B275-31F0969C41B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travelaa.BusinessLayer", "Travelaa.BusinessLayer\Travelaa.BusinessLayer.csproj", "{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F72A099-BB72-4B2F-9BE1-F4BF628A3575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F72A099-BB72-4B2F-9BE1-F4BF628A3575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F72A099-BB72-4B2F-9BE1-F4BF628A3575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F72A099-BB72-4B2F-9BE1-F4BF628A3575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31CB25F-ECC7-40EF-9274-F3D395DF60F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31CB25F-ECC7-40EF-9274-F3D395DF60F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31CB25F-ECC7-40EF-9274-F3D395DF60F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31CB25F-ECC7-40EF-9274-F3D395DF60F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3677ECC3-1894-4A76-B275-31F0969C41B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3677ECC3-1894-4A76-B275-31F0969C41B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3677ECC3-1894-4A76-B275-31F0969C41B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3677ECC3-1894-4A76-B275-31F0969C41B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4EB7C59-9463-443E-9C6C-1DF1BB8DE495}
+	EndGlobalSection
+EndGlobal
