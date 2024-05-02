@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travelaa.DataAccessLayer", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travelaa.BusinessLayer", "Travelaa.BusinessLayer\Travelaa.BusinessLayer.csproj", "{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Travelaa.WebUI", "Travelaa.WebUI\Travelaa.WebUI.csproj", "{AD0E5D4C-BF06-4884-A57B-BAAF84FFED2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF97B5CA-2DD1-411F-B7DC-7A2A86C5B145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0E5D4C-BF06-4884-A57B-BAAF84FFED2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0E5D4C-BF06-4884-A57B-BAAF84FFED2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0E5D4C-BF06-4884-A57B-BAAF84FFED2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0E5D4C-BF06-4884-A57B-BAAF84FFED2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
