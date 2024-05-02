@@ -39,5 +39,10 @@ namespace Travelaa.WebApi.Controllers
             _destinationService.TUpdate(destination);
             return Ok("Güncelleme Yapıldı");
         }
+        [HttpGet("GetDestination")]
+        public IActionResult GetDestination(int id)
+        {
+            return Ok(_destinationService.TGetById(id));
+        }
     }
 }

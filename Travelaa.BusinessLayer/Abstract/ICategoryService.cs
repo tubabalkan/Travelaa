@@ -9,5 +9,6 @@ namespace Travelaa.BusinessLayer.Abstract
 {
     public interface ICategoryService:IGenericService<Category>
     {
+        int TGetCategoryCount();
     }
 }

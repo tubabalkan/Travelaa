@@ -16,5 +16,12 @@ namespace Travelaa.DataAccessLayer.EntityFramework
         {
            
         }
+
+        public int GetCategoryCount()
+        {
+            var context=new TravelaContext();
+            var value = context.Categories.Count();
+            return value;
+        }
     }
 }
