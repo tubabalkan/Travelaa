@@ -1,0 +1,34 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+@await Html.PartialAsync("/Views/AdminLayout/HeadPartial.cshtml")
+<body class="hold-transition sidebar-mini layout-fixed">
+    <div class="wrapper">
+        @await Html.PartialAsync("/Views/AdminLayout/NavHeaderPartial.cshtml")
+        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+            @await Html.PartialAsync("/Views/AdminLayout/HeaderPartial.cshtml")
+            @await Html.PartialAsync("/Views/AdminLayout/SideBarPartial.cshtml")
+        </aside>
+
+        <div class="content-wrapper">
+            <div class="content-header">
+                <div class="container-fluid">
+                    <div class="row mb-2">
+                        <div class="col-sm-12">
+                            <p>@RenderBody()</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        @await Html.PartialAsync("/Views/AdminLayout/FooterPartial.cshtml")
+        <aside class="control-sidebar control-sidebar-dark">
+        </aside>
+    </div>
+    @await Html.PartialAsync("/Views/AdminLayout/ScriptPartial.cshtml")
+</body>
+</html>
+
