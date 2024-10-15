@@ -5,7 +5,7 @@
         public int destinationId { get; set; }
         public string city { get; set; }
         public string country { get; set; }
-        public string imageUrl { get; set; }
+        public string ImageUrt { get; set; }
         public int countDay { get; set; }
         public string subTitle { get; set; }
         public string description { get; set; }

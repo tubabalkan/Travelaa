@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +16,11 @@ namespace Travelaa.DataAccessLayer.EntityFramework
         public EfDestinationDal(TravelaContext context) : base(context)
         {
         }
+
+        //public List<Destination> GetListWithCategory()
+        //{
+        //   // var context = new Context();
+        //    return context.Destinations.Include(d => d.Category).ToList();
+        //}
     }
 }

@@ -1,0 +1,72 @@
+﻿@model Travelaa.WebUI.Dtos.UpdateDestinationDto
+@{
+    ViewData["Title"] = "UpdateDestinationn";
+    Layout = "~/Views/AdminLayout/AdminLayout.cshtml";
+}
+
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4>Rota Güncelle</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <input type="hidden" asp-for="destinationId" />
+                        
+                        <div class="form-group mb-3">
+                            <label>Şehir</label>
+                            <input type="text" asp-for="city" class="form-control" placeholder="Şehir adı giriniz" />
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label>Ülke</label>
+                            <input type="text" asp-for="country" class="form-control" placeholder="Ülke adı giriniz" />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Görsel URL</label>
+                            <input type="text" asp-for="ImageUrt" class="form-control" placeholder="Görsel URL'si giriniz" />
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label>Gün Sayısı</label>
+                            <input type="number" asp-for="countDay" class="form-control" placeholder="Gün sayısı giriniz" />
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label>Alt Başlık</label>
+                            <input type="text" asp-for="subTitle" class="form-control" placeholder="Alt başlık giriniz" />
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label>Açıklama</label>
+                            <textarea asp-for="description" class="form-control" rows="3" placeholder="Açıklama giriniz"></textarea>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label>Fiyat</label>
+                            <input type="text" asp-for="price" class="form-control" placeholder="Fiyat giriniz" />
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label>Tarih</label>
+                            <input type="date" asp-for="date" class="form-control" />
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary w-100">Rotayı Güncelle</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
