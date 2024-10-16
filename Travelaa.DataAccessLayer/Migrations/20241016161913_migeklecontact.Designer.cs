@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Travelaa.DataAccessLayer.Context;
 
@@ -11,9 +12,10 @@ using Travelaa.DataAccessLayer.Context;
 namespace Travelaa.DataAccessLayer.Migrations
 {
     [DbContext(typeof(TravelaContext))]
-    partial class TravelaContextModelSnapshot : ModelSnapshot
+    [Migration("20241016161913_migeklecontact")]
+    partial class migeklecontact
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

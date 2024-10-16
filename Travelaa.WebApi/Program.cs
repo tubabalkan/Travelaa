@@ -14,6 +14,11 @@ builder.Services.AddScoped<ICategoryService,CategoryManager>();
 
 builder.Services.AddScoped<IDestinationDal, EfDestinationDal>();
 builder.Services.AddScoped<IDestinationService, DestinationManager>();
+builder.Services.AddScoped<IAdminDal, EfAdminDal>();
+builder.Services.AddScoped<IAdminService, AdminManager>();
+
+builder.Services.AddScoped<IContactDal, EfContactDal>();
+builder.Services.AddScoped<IContactService, ContactManager>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
