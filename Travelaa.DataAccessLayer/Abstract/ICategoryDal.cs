@@ -10,5 +10,6 @@ namespace Travelaa.DataAccessLayer.Abstract
     public interface ICategoryDal:IGenericDal<Category>
     {
         int GetCategoryCount();
+        int CategoryCount();
     }
 }

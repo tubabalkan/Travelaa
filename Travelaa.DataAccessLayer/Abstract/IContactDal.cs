@@ -9,6 +9,6 @@ namespace Travelaa.DataAccessLayer.Abstract
 {
     public interface IContactDal : IGenericDal<Contact>
     {
-
+        int ContactCount();
     }
 }

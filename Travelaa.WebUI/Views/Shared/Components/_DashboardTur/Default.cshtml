@@ -1,0 +1,41 @@
+﻿@model List<Travelaa.WebUI.Dtos.DestinationEightLast>
+
+
+
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">Tur Kategorileri</h3>
+        <div class="card-tools">
+            <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                <i class="fas fa-minus"></i>
+            </button>
+            <button type="button" class="btn btn-tool" data-card-widget="remove">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+    <!-- /.card-header -->
+    <div class="card-body p-0">
+       
+            <ul class="users-list clearfix">
+            @foreach (var item in Model)
+            {
+                <li style="list-style-type: none; display: inline-block; text-align: center; margin: 40px; width: 120px;">
+                    <img src="@item.ImageUrt" alt="User Image" style="width: 200px; height: 100px; object-fit: cover; display: block;">
+                    <a class="users-list-name" href="#">@item.Description</a>
+                    <span class="users-list-date">@item.City</span>
+                    <span class="users-list-date"> @item.Date.ToString("dd MMMM yyyy")</span>
+                </li>
+            }
+            </ul>
+        
+      
+        <!-- /.users-list -->
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer text-center">
+        <a href="/AdminTur/Index/">Tur Detayları Sayfasına Git</a>
+    </div>
+
+    <!-- /.card-footer -->
+    </div>

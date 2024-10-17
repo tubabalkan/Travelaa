@@ -10,5 +10,7 @@ namespace Travelaa.DataAccessLayer.Abstract
     public interface IDestinationDal:IGenericDal<Destination>
     {
         //List<Destination> GetListWithCategory();
+        int DestinationCount();
+        List<Destination> LastEightDestination();
     }
 }

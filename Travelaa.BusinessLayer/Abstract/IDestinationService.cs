@@ -9,5 +9,7 @@ namespace Travelaa.BusinessLayer.Abstract
 {
     public interface IDestinationService:IGenericService<Destination>
     {
+        int TDestinationCount();
+        List<Destination> TLastEightDestination();
     }
 }

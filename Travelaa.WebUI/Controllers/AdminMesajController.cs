@@ -14,9 +14,7 @@ namespace Travelaa.WebUI.Controllers
         }
 
         public async Task<IActionResult> Index()
-        {
-            
-            
+        {          
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7113/api/Mesaj");
             if (responseMessage.IsSuccessStatusCode)
@@ -25,10 +23,9 @@ namespace Travelaa.WebUI.Controllers
                 var values = JsonConvert.DeserializeObject<List<ResultContactDto>>(jsonData);
                 return View(values);
             }
-           
             return View();
         }
-        public async Task<IActionResult> MessageDetailsByInbox(int id)
+        public async Task<IActionResult> MessageDetails(int id)
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync($"https://localhost:7113/api/Mesaj/{id}");

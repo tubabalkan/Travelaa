@@ -20,5 +20,11 @@ namespace Travelaa.WebApi.Controllers
             var values = _contactService.TGetListAll();
             return Ok(values);
         }
+        [HttpGet("{id}")]
+        public IActionResult GetContact(int id)
+        {
+            var values = _contactService.TGetById(id);
+            return Ok(values);
+        }
     }
 }

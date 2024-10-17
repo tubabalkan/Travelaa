@@ -9,5 +9,6 @@ namespace Travelaa.BusinessLayer.Abstract
 {
     public interface IAdminService : IGenericService<Admin>
     {
+        int TAdminCount();
     }
 }

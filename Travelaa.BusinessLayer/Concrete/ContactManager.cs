@@ -19,6 +19,11 @@ namespace Travelaa.BusinessLayer.Concrete
             _contactDal = contactDal;
         }
 
+        public int TContactCount()
+        {
+            return _contactDal.ContactCount();
+        }
+
         public void TDelete(int id)
         {
             _contactDal.Delete(id);

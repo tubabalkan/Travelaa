@@ -44,5 +44,11 @@ namespace Travelaa.WebApi.Controllers
         {
             return Ok(_destinationService.TGetById(id));
         }
+        [HttpGet("LastEightDestination")]
+        public IActionResult LastEightDestination()
+        {
+            var values= _destinationService.TLastEightDestination();
+            return Ok(values);
+        }
     }
 }

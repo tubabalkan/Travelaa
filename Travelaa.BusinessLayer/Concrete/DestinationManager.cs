@@ -23,6 +23,11 @@ namespace Travelaa.BusinessLayer.Concrete
             _destinationDal.Delete(id);
         }
 
+        public int TDestinationCount()
+        {
+            return _destinationDal.DestinationCount();
+        }
+
         public Destination TGetById(int id)
         {
            return _destinationDal.GetById(id);
@@ -36,6 +41,11 @@ namespace Travelaa.BusinessLayer.Concrete
         public void TInsert(Destination entity)
         {
             _destinationDal.Insert(entity);
+        }
+
+        public List<Destination> TLastEightDestination()
+        {
+            return _destinationDal.LastEightDestination();
         }
 
         public void TUpdate(Destination entity)

@@ -3,12 +3,8 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/AdminLayout/AdminLayout.cshtml";
 }
-
-
     <section class="content">
         <div class="row">
-          
-            <!-- /.col -->
             <div class="col-md-12">
                 <div class="card card-primary card-outline">
                     <div class="card-header">
@@ -23,12 +19,9 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /.card-tools -->
                     </div>
-                    <!-- /.card-header -->
                     <div class="card-body p-0">
                         <div class="mailbox-controls">
-                            <!-- Check all button -->
                             <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                                 <i class="far fa-square"></i>
                             </button>
@@ -37,7 +30,6 @@
                                 <button type="button" class="btn btn-default btn-sm"><i class="fas fa-reply"></i></button>
                                 <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i></button>
                             </div>
-                            <!-- /.btn-group -->
                             <button type="button" class="btn btn-default btn-sm"><i class="fas fa-sync-alt"></i></button>
                             <div class="float-right">
                                 1-50/200
@@ -45,9 +37,7 @@
                                     <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-left"></i></button>
                                     <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-right"></i></button>
                                 </div>
-                                <!-- /.btn-group -->
                             </div>
-                            <!-- /.float-right -->
                         </div>
                         <div class="table-responsive mailbox-messages">
                             <table class="table table-hover table-striped">
@@ -61,8 +51,8 @@
                                                 <label for="check1"></label>
                                             </div>
                                         </td>
-                                        <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                        <td class="mailbox-name"><a href="read-mail.html">@item.Name </a></td>
+                                        <td class="mailbox-star"><a href="/AdminMesaj/MessageDetails/@item.ContactId"><i class="fas fa-star text-warning"></i></a></td>
+                                        <td class="/AdminMesaj/MessageDetails/@item.ContactId"><a href="/AdminMesaj/MessageDetails/@item.ContactId">@item.Name </a></td>
                                         <td class="mailbox-subject">
                                             <b>@item.Subject</b> - @item.Message.Substring(0,100)...
                                         </td>
@@ -70,18 +60,12 @@
                                         <td class="mailbox-date">@(((DateTime)item.Date).ToString("dd-MMM-yyy"))</td>
                                     </tr>
                                 }
-                              
-                                  
                                 </tbody>
                             </table>
-                            <!-- /.table -->
                         </div>
-                        <!-- /.mail-box-messages -->
                     </div>
-                    <!-- /.card-body -->
                     <div class="card-footer p-0">
                         <div class="mailbox-controls">
-                            <!-- Check all button -->
                             <button type="button" class="btn btn-default btn-sm checkbox-toggle">
                                 <i class="far fa-square"></i>
                             </button>
@@ -90,7 +74,6 @@
                                 <button type="button" class="btn btn-default btn-sm"><i class="fas fa-reply"></i></button>
                                 <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i></button>
                             </div>
-                            <!-- /.btn-group -->
                             <button type="button" class="btn btn-default btn-sm"><i class="fas fa-sync-alt"></i></button>
                             <div class="float-right">
                                 1-50/200
@@ -98,16 +81,10 @@
                                     <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-left"></i></button>
                                     <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-right"></i></button>
                                 </div>
-                                <!-- /.btn-group -->
                             </div>
-                            <!-- /.float-right -->
                         </div>
                     </div>
                 </div>
-                <!-- /.card -->
             </div>
-            <!-- /.col -->
         </div>
-        <!-- /.row -->
     </section>
-    <!-- /.content -->

@@ -18,6 +18,11 @@ namespace Travelaa.BusinessLayer.Concrete
             _adminDal = adminDal;
         }
 
+        public int TAdminCount()
+        {
+           return _adminDal.AdminCount();
+        }
+
         public void TDelete(int id)
         {
             _adminDal.Delete(id);

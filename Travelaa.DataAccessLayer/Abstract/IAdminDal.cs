@@ -9,5 +9,6 @@ namespace Travelaa.DataAccessLayer.Abstract
 {
     public interface IAdminDal : IGenericDal<Admin>
     {
+        int AdminCount();
     }
 }

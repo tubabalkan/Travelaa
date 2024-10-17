@@ -15,5 +15,12 @@ namespace Travelaa.DataAccessLayer.EntityFramework
         public EfAdminDal(TravelaContext context) : base(context)
         {
         }
+
+        public int AdminCount()
+        {
+            using var context = new TravelaContext();
+            var value=context.Admins.Count();
+            return value;
+        }
     }
 }
