@@ -4,7 +4,7 @@
 ## 📌 Kullanılan Teknolojiler
 
 ## 📌 Proje içi Görseller
-## 👩 Kullanıcı Arayüzü
+# 👩 Kullanıcı Arayüzü
 ![AnaSayfa1](https://github.com/user-attachments/assets/6d8df0f5-ba14-40b9-ae60-03cc019ee9df)
 ![AnaSayfa2](https://github.com/user-attachments/assets/2e45570e-0e0a-4bd4-9225-bf28487cddce)
 ![AnaSayfa3](https://github.com/user-attachments/assets/4d0512ce-1a57-4c27-8ea5-1443481a8428)
@@ -12,7 +12,7 @@
 ![AnaSayfa5](https://github.com/user-attachments/assets/e56a50eb-cbfd-4e63-afe2-e2c944f2c04c)
 ![AnaSayfa6](https://github.com/user-attachments/assets/78532ce7-f9dd-4794-87dc-925cc7ba2dc3)
 ![AnaSayfa7](https://github.com/user-attachments/assets/43105ebb-17ca-487b-9807-36b435505558)
-## 👩‍💻 Admin
+# 👩‍💻 Admin
 ![AdminDashboard](https://github.com/user-attachments/assets/2e6172dd-5a25-4ab8-8bfc-66247995d15d)
 ![AdminKategoriGüncelleme](https://github.com/user-attachments/assets/8ddbf33f-6747-4e15-9d83-dec59e1262f1)
 ![AdminKategorileri](https://github.com/user-attachments/assets/ba770b9a-748e-4c20-afaa-eb8a60c2f7b4)
