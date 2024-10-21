@@ -11,5 +11,6 @@ namespace Travelaa.BusinessLayer.Abstract
     {
         int TDestinationCount();
         List<Destination> TLastEightDestination();
+        List<Destination> TDestinationListCatgory();
     }
 }

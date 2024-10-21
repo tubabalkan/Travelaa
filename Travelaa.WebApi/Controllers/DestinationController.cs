@@ -50,5 +50,6 @@ namespace Travelaa.WebApi.Controllers
             var values= _destinationService.TLastEightDestination();
             return Ok(values);
         }
+
     }
 }

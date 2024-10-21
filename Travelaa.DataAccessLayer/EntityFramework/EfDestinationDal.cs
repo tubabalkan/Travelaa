@@ -24,6 +24,13 @@ namespace Travelaa.DataAccessLayer.EntityFramework
             return value;
         }
 
+        public List<Destination> DestinationListCatgory()
+        {
+            using var context = new TravelaContext();
+            var values=context.Destinations.Include(x=>x.Category).ToList();
+            return values;
+        }
+
         public List<Destination> LastEightDestination()
         {
             using var context = new TravelaContext();

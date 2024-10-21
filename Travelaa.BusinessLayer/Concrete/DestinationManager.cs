@@ -28,6 +28,11 @@ namespace Travelaa.BusinessLayer.Concrete
             return _destinationDal.DestinationCount();
         }
 
+        public List<Destination> TDestinationListCatgory()
+        {
+            return _destinationDal.DestinationListCatgory();
+        }
+
         public Destination TGetById(int id)
         {
            return _destinationDal.GetById(id);

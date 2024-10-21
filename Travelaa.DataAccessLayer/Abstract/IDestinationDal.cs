@@ -12,5 +12,6 @@ namespace Travelaa.DataAccessLayer.Abstract
         //List<Destination> GetListWithCategory();
         int DestinationCount();
         List<Destination> LastEightDestination();
+        List<Destination> DestinationListCatgory();
     }
 }
