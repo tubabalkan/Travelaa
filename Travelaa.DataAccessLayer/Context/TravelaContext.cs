@@ -18,5 +18,6 @@ namespace Travelaa.DataAccessLayer.Context
         public DbSet<Destination> Destinations { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Galeri> Galeris { get; set; }
     }
 }

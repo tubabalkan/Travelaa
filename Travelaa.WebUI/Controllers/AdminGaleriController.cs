@@ -1,20 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Travelaa.WebUI.Dtos.DestinationTemaDto;
+using Travelaa.WebUI.Dtos;
 using Travelaa.WebUI.Dtos.GaleriDto;
 
-namespace Travelaa.WebUI.ViewComponents.Default
+namespace Travelaa.WebUI.Controllers
 {
-    public class _Gallery : ViewComponent
+    public class AdminGaleriController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public _Gallery(IHttpClientFactory httpClientFactory)
+        public AdminGaleriController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
 
-        public async Task<IViewComponentResult> InvokeAsync()
+        public async Task<IActionResult> Index()
         {
             var client = _httpClientFactory.CreateClient();
             var responseMessage = await client.GetAsync("https://localhost:7113/api/Galeri");
