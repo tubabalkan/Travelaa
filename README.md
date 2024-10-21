@@ -1,9 +1,9 @@
 # Keşif Yolculuğu
 ## Projeye Genel Bakış 
 
-## 📌 Kullanılan Teknolojiler
+# 📌 Kullanılan Teknolojiler
 
-## 📌 Proje içi Görseller
+# 📌 Proje içi Görseller
 # 👩 Kullanıcı Arayüzü
 ![AnaSayfa1](https://github.com/user-attachments/assets/6d8df0f5-ba14-40b9-ae60-03cc019ee9df)
 ![AnaSayfa2](https://github.com/user-attachments/assets/2e45570e-0e0a-4bd4-9225-bf28487cddce)
