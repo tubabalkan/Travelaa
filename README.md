@@ -5,19 +5,18 @@
 
 ## 📌 Proje içi Görseller
 ### 👩 Kullanıcı Arayüzü
-![AnaSayfa1](https://github.com/user-attachments/assets/6d8df0f5-ba14-40b9-ae60-03cc019ee9df)
-![AnaSayfa2](https://github.com/user-attachments/assets/2e45570e-0e0a-4bd4-9225-bf28487cddce)
-![AnaSayfa3](https://github.com/user-attachments/assets/4d0512ce-1a57-4c27-8ea5-1443481a8428)
-![AnaSayfa4](https://github.com/user-attachments/assets/759915df-d2e5-422b-acaa-17033f6f65bb)
-![AnaSayfa5](https://github.com/user-attachments/assets/e56a50eb-cbfd-4e63-afe2-e2c944f2c04c)
-![AnaSayfa6](https://github.com/user-attachments/assets/78532ce7-f9dd-4794-87dc-925cc7ba2dc3)
-![AnaSayfa7](https://github.com/user-attachments/assets/43105ebb-17ca-487b-9807-36b435505558)
+![AnaTemaGiriş](https://github.com/user-attachments/assets/ca86ef35-e969-4d7a-b5c7-0ccb590e953c)
+![AnaTemaHakkımızda](https://github.com/user-attachments/assets/47ce007b-64d7-4d27-9a7d-ac2339398cbc)
+![AnaTemaKategoriler](https://github.com/user-attachments/assets/d9dffd50-e8e5-4a71-856f-b3c62cc49221)
+![AnaTemaTurlar](https://github.com/user-attachments/assets/d1e80d49-a82e-460d-a8c1-1e122bbae780)
+![AnaTemaGaleri](https://github.com/user-attachments/assets/3d911a08-223f-4bb8-bfab-762025293e86)
+![AnaTemaSon](https://github.com/user-attachments/assets/84393b6c-abc2-4c41-89d8-20531d59d61d)
+![AnaTemaSonİletisim](https://github.com/user-attachments/assets/5c5808b9-c49b-437f-b441-03fcd89027c2)
 ### 👩‍💻 Admin
-![AdminDashboard](https://github.com/user-attachments/assets/2e6172dd-5a25-4ab8-8bfc-66247995d15d)
-![AdminKategoriGüncelleme](https://github.com/user-attachments/assets/8ddbf33f-6747-4e15-9d83-dec59e1262f1)
-![AdminKategorileri](https://github.com/user-attachments/assets/ba770b9a-748e-4c20-afaa-eb8a60c2f7b4)
-![AdminMesaj](https://github.com/user-attachments/assets/05217cb1-3dc4-4374-a4c0-4d36cfe6f202)
-![AdminMesajDetay](https://github.com/user-attachments/assets/e0420031-9b12-47e1-84a5-d942078c7931)
-![AdminProfil](https://github.com/user-attachments/assets/f4c94636-9ee4-4d8f-8c65-2d63524c8281)
-![AdminTurlar](https://github.com/user-attachments/assets/9c5a6230-3841-48fb-bfdf-f1efa259c9b4)
-
+![AdninDashboard](https://github.com/user-attachments/assets/010b0446-2110-4cf0-bf8c-9cde5327d753)
+![AdminCategory](https://github.com/user-attachments/assets/988b876c-f831-4fbc-94c9-a1c56182e654)
+![AdminGaleri](https://github.com/user-attachments/assets/d076f64d-367c-4dfb-b959-f826a4543f07)
+![AdminMesaj](https://github.com/user-attachments/assets/a073cc46-5a46-42b2-be49-d9b50496ee98)
+![AdminTur](https://github.com/user-attachments/assets/c1ec04f1-3201-4e0f-a51d-f4983bbf3300)
+![AdminKategoriGüncelle](https://github.com/user-attachments/assets/342dd58d-521f-4b0e-af33-e10132c4cd28)
+![adminMesajdETAY](https://github.com/user-attachments/assets/ced76220-aa2d-4a11-bdf5-4127860682b1)
