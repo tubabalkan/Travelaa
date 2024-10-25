@@ -1,8 +1,17 @@
 # Keşif Yolculuğu
+M&Y Yazılım bünyesinde, Murat Yücedağ hocamızla birlikte geliştirdiğim Travela projemin ismini, projeye özgünlük kazandırmak amacıyla Keşif Yolculuğu olarak değiştirdim. Bu projede, hem kullanıcıların seyahat kategorilerini ve turları keşfetmelerini sağlayan bir kullanıcı arayüzü hem de site yöneticilerinin içerikleri kolayca yönetebildiği bir admin paneli yer almaktadır. Keşif Yolculuğu, gezginlere ilham verirken, yöneticilere de platformu dinamik ve güncel tutma imkanı sunar.
 ## Projeye Genel Bakış 
-
+"Keşif Yolculuğu" projesi, kullanıcıların farklı seyahat kategorileri ve turları keşfetmelerini sağlayan bir platformdur. Bu proje, doğa, kültür, macera gibi farklı tema ve kategorilerde özelleştirilmiş turlar sunarak gezginlerin farklı seyahat ihtiyaçlarına cevap verir. Kullanıcılar, çeşitli turları inceleyebilir, görsellerle zenginleştirilmiş tur bilgilerinden faydalanarak seyahat rotalarını planlayabilir ve turlar hakkında daha fazla bilgi alabilirler. Platform, kullanıcılara ilham vererek seyahat seçeneklerini keşfetmelerine olanak tanır. Proje, aynı zamanda yönetici paneli aracılığıyla içerik yönetimini kolaylaştırarak platformun sürekli güncel ve dinamik kalmasını sağlar.
+👩‍💻 "Keşif Yolculuğu" admin paneli, site yöneticilerine içerikleri kolayca yönetebilme imkanı sunar. Bu bölüm, seyahat kategorilerinin ve turların düzenlenmesi, yeni içerik eklenmesi, kullanıcı mesajlarının görüntülenmesi gibi işlemleri hızlı ve etkili bir şekilde gerçekleştirir. Kategori ve tur yönetimi sayesinde, yöneticiler görseller, açıklamalar ve fiyatlar gibi önemli detayları kolayca düzenleyebilir. Aynı zamanda mesaj yönetim sistemi ile kullanıcılardan gelen geri bildirimler ve talepler görüntülenebilir, bu sayede yöneticiler kullanıcı deneyimini izleyebilirler. Galeri yönetimi ise platformu görsel olarak güncel tutmayı sağlar.
 ## 📌 Kullanılan Teknolojiler
-
+✔ C#, ASP.NET Core(Dil ve Framework)</br>
+✔ Entity Framework (ORM) 6.0 </br>
+✔ Code First  </br>
+✔ Microsoft SQL Server(MSSQL) (Veritabanı) </br>
+✔ N-Architecture  </br>
+✔ Repository Design Pattern(CRUD işlemlerinde kod tekrarını önlemek ve daha esnek bir yapı sağlamak için.)</br>
+✔ Dependency Injection (Bağımlılıkların yönetimi ve bağımsız bir kod yapısı oluşturmak için.) </br>
+✔ HTML-CSS-Bootstrap </br>
 ## 📌 Proje içi Görseller
 ### 👩 Kullanıcı Arayüzü
 ![1](https://github.com/user-attachments/assets/9920e39c-78f3-463b-be34-b080bd682f42)
