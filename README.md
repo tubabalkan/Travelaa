@@ -5,8 +5,8 @@
 
 ## 📌 Proje içi Görseller
 ### 👩 Kullanıcı Arayüzü
-![AnaTemaGiriş](https://github.com/user-attachments/assets/ca86ef35-e969-4d7a-b5c7-0ccb590e953c)
-![AnaTemaHakkımızda](https://github.com/user-attachments/assets/47ce007b-64d7-4d27-9a7d-ac2339398cbc)
+![1](https://github.com/user-attachments/assets/9920e39c-78f3-463b-be34-b080bd682f42)
+![2](https://github.com/user-attachments/assets/6138f134-44aa-43b2-a04c-9e1ac9d86bbd)
 ![AnaTemaKategoriler](https://github.com/user-attachments/assets/d9dffd50-e8e5-4a71-856f-b3c62cc49221)
 ![AnaTemaTurlar](https://github.com/user-attachments/assets/d1e80d49-a82e-460d-a8c1-1e122bbae780)
 ![AnaTemaGaleri](https://github.com/user-attachments/assets/3d911a08-223f-4bb8-bfab-762025293e86)
